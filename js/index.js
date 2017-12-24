@@ -45,6 +45,40 @@ else{
 }
  
 
+let a;
+for (a = 2; a <= 10; a++){
+    if (a % 2 == 0)
+    alert (a);
+}
+
+
+
+
+
+let i = 0;
+while (i < 3){
+    alert (i);
+    i++;
+}
+
+let n;
+for (n = 2; n < 10; n++){
+    if (n % 2 !== 0 && n / (n - 1) !== 0)
+    alert (n);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
