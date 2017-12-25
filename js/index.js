@@ -24,7 +24,7 @@ else {
     alert ('-1');
 }*/
 
-let login = prompt('Enter your login', '');
+/*let login = prompt('Enter your login', '');
 if (login == 'Admin'){
     let password = prompt('Enter your password','');
     if (password == 1234){
@@ -65,10 +65,38 @@ let n;
 for (n = 2; n < 10; n++){
     if (n % 2 !== 0 && n / (n - 1) !== 0)
     alert (n);
+}*/
+
+
+/*let a;
+for(a = 2; a <= 10; a++){
+    if(a % 2 == 0){
+    alert(a);
+    }
+}*/
+
+
+/*let a = 0;
+while(a < 3){
+    alert ('number ' + a + ' !');
+    a++;
+}*/
+
+/*let a = prompt(Number('Enter the number: ', ''));
+if (a >= 100){
 }
+else if (a < 100){
+    alert('Please, try again');
+}
+else {
+    
+}*/
 
-
-
+for (let a = 2; a <= 10; a++){
+    if (a % 2 != 0 && a/(a - 1) != 0){
+        alert(a);
+    }
+}
 
 
 
